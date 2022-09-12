@@ -3,18 +3,22 @@
 }
 
 nav {
+    display: flex;
     background-color: #121b66;
-    height: 3em;
+    height: 4em;
     word-spacing: 2em;
+    align-items: center;
+    justify-items: center;
+    min-width: 729px;
 }
 
 nav a:link{
     color: rgb(181, 196, 218);
     background-color: #121b66;
-    font-size: 20px;
+    font-size: 35px;
     text-decoration: none;
     font-family: 'Carter One', cursive;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 nav a:link:hover{
@@ -24,13 +28,25 @@ nav a:link:hover{
 #main_title h1 {
     font-family: 'Permanent Marker', cursive;
     margin-bottom: 1px;
+    font-size: 5rem;
+    color:#0e101b;
 }
 
 #main_title p {
     font-family: 'Kalam', cursive;
     margin-top: 1px;
+    font-size: 3rem;
+    color:#0e101b;
 }
 
 #main_title {
-    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    min-width: 700px;
+}
+
+#main_title p h1 {
+    margin: auto;
 }
