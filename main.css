@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(12, 77, 197);
+}
+
+nav {
+    background-color: #121b66;
+    height: 3em;
+    word-spacing: 2em;
+}
+
+nav a:link{
+    color: rgb(181, 196, 218);
+    background-color: #121b66;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    margin-left: 3em;
+}
+
+nav a:link:hover{
+    color: #000;
+}
+
+#main_title h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 1px;
+}
+
+#main_title p {
+    font-family: 'Kalam', cursive;
+    margin-top: 1px;
+}
+
+#main_title {
+    
+}
