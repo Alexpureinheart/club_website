@@ -40,6 +40,7 @@ nav a:link:hover{
     margin-top: 1px;
     font-size: 3rem;
     color:#0e101b;
+    min-width: 100px;
 }
 
 #main_title img {
@@ -61,7 +62,13 @@ nav a:link:hover{
 }
 
 #description {
-    background-color:rgba(4, 11, 24, 0.5);
+    background-color:rgba(4, 11, 24, 0.3);
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 5rem;
+    min-width: 800px;
 }
 
 #description h2 {
@@ -69,12 +76,30 @@ nav a:link:hover{
     font-size: 40px;
     background-color:rgba(4, 11, 24, 0);
     font-family: 'Kalam', cursive;
+    padding-left: 2rem;
+    margin-bottom: -10px;
+    margin-top: auto;
 }
 
 #description p {
     background-color:rgba(4, 11, 24, 0);
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #description a {
     background-color:rgba(4, 11, 24, 0);
+    text-decoration: none;
+    color: rgb(74, 9, 74);
+}
+
+#mini_gallery {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+#mini_gallery img {
+    width: 200px;
 }
