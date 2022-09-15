@@ -1,15 +1,18 @@
 *{
-    background-color: rgb(12, 77, 197);
+    background-color: rgb(82, 118, 185);
 }
 
 nav {
     display: flex;
     background-color: #121b66;
-    height: 4em;
+    height: 5em;
     word-spacing: 2em;
     align-items: center;
     justify-items: center;
     min-width: 729px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 nav a:link{
@@ -39,6 +42,10 @@ nav a:link:hover{
     color:#0e101b;
 }
 
+#main_title img {
+    width: 700px;
+}
+
 #main_title {
     display: flex;
     align-items: center;
@@ -47,6 +54,27 @@ nav a:link:hover{
     min-width: 700px;
 }
 
+
+
 #main_title p h1 {
     margin: auto;
+}
+
+#description {
+    background-color:rgba(4, 11, 24, 0.5);
+}
+
+#description h2 {
+    color:rgb(204, 192, 17);
+    font-size: 40px;
+    background-color:rgba(4, 11, 24, 0);
+    font-family: 'Kalam', cursive;
+}
+
+#description p {
+    background-color:rgba(4, 11, 24, 0);
+}
+
+#description a {
+    background-color:rgba(4, 11, 24, 0);
 }
