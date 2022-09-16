@@ -6,7 +6,7 @@ body{
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 10rem;
     margin-left: 2rem;
     font-family: 'Kalam', cursive;
 }
@@ -14,22 +14,24 @@ h3 {
 nav {
     display: flex;
     background-color: #121b66;
-    height: 5em;
+    height: 5rem;
     align-items: center;
     justify-items: center;
     margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-right: 1rem;
     flex-wrap: wrap;
 }
 
 nav a:link{
     color: rgb(181, 196, 218);
     background-color: #121b66;
-    font-size: 35px;
+    font-size: 2.5rem;
     text-decoration: none;
     font-family: 'Carter One', cursive;
-    margin-left: 1em;
+    margin-left: 2rem;
+
 }
 
 nav a:link:hover{
@@ -60,7 +62,6 @@ nav a:link:hover{
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    flex-shrink: 2;
 }
 
 
