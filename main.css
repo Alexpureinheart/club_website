@@ -1,5 +1,21 @@
-*{
-    background-color: rgb(82, 118, 185);
+@media screen and (min-width: 480px) {
+    #mini_gallery {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 600px 600px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+}
+
+body{
+    background-image: url("./images/blue-rubber-texture-background-seamless-pattern-152713465.jpg");
+}
+
+h3 {
+    font-size: 40px;
+    margin-left: 2rem;
 }
 
 nav {
@@ -56,13 +72,12 @@ nav a:link:hover{
 }
 
 
-
 #main_title p h1 {
     margin: auto;
 }
 
 #description {
-    background-color:rgba(4, 11, 24, 0.3);
+    background-color:rgba(38, 50, 67, 0.5);
     display: flex;
     flex-direction: column;
     margin-left: -10px;
@@ -95,11 +110,14 @@ nav a:link:hover{
     color: rgb(74, 9, 74);
 }
 
+
 #mini_gallery {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 600px;
+    gap: 20px;
+    justify-content: center;
 }
 
 #mini_gallery img {
-    width: 200px;
+    width: 600px;
 }
