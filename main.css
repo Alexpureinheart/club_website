@@ -1,9 +1,7 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 500px) {
     #mini_gallery {
-        margin: auto;
         display: grid;
-        grid-template-columns: 600px 600px;
-        gap: 20px;
+        grid-template-columns: 600px;
         justify-content: center;
     }
 
@@ -110,10 +108,10 @@ nav a:link:hover{
     color: rgb(74, 9, 74);
 }
 
-
 #mini_gallery {
+    margin: auto;
     display: grid;
-    grid-template-columns: 600px;
+    grid-template-columns: 600px 600px;
     gap: 20px;
     justify-content: center;
 }
