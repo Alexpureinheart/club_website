@@ -63,5 +63,55 @@ nav a {
 
 h3 {
     font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+}
+
+#mini_gallery {
+    display: flex;
+    max-width: 120%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#mini_gallery img{
+    width: 60%;
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 73);
+    width: 120%;
+    margin-left: -1rem;
+    margin-bottom: -.5rem;
+    
+}
+
+footer p {
+    margin-left: 1rem;
+    margin-right: -.5rem;
+    display: inline;
+    padding-top: .5rem;
+    font-family: 'Kalam', cursive;
+    color: rgba(235, 235, 14, 0.849);
+    font-size: 1.5rem;
+    
+}
+
+footer img {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 5%;
+    height: 2.5%;
+}
+
+@media only screen and (max-width: 700px){
+    nav {
+        width: 100%;
+    }
 }
 
