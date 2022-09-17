@@ -99,19 +99,13 @@ footer p {
     font-family: 'Kalam', cursive;
     color: rgba(235, 235, 14, 0.849);
     font-size: 1.5rem;
-    
+    text-align: center;
 }
 
-footer img {
-    margin-left: 1rem;
-    padding-top: 1rem;
-    width: 5%;
-    height: 2.5%;
-}
-
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     nav {
         width: 100%;
     }
+
 }
 
