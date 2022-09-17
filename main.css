@@ -1,3 +1,7 @@
+body {
+    background-image: url("./images/background2.jpg");
+}
+
 nav {
     background-color: rgb(20, 20, 73);
     width: 120%;
@@ -5,14 +9,13 @@ nav {
     margin-top: -.5rem;
     margin-left: -.5rem;
     margin-right: .5rem;
-
     position: fixed;
 }
 
 nav a {
     color:rgb(139, 158, 175);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 1rem;
 }
 
@@ -34,3 +37,31 @@ nav a {
 #main_title img {
     width: 60%;
 }
+
+#description {
+    background-color: rgba(20, 20, 43, .8);
+    width: 120%;
+    margin-left: -.5rem;
+    margin-right: 3rem;
+    padding-bottom: .2rem;
+}
+
+#description h2 {
+    font-family: 'Kalam', cursive;
+    padding-left: 1rem;
+    color: rgba(235, 235, 14, 0.849);
+    padding-top: 1rem;
+}
+
+#description p {
+    display: block;
+    margin-right: 9.8rem;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 1rem;
+    color:rgb(139, 158, 175)
+}
+
+h3 {
+    font-family: 'Kalam', cursive;
+}
+
