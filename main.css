@@ -1,0 +1,36 @@
+nav {
+    background-color: rgb(20, 20, 73);
+    width: 120%;
+    font-family: 'Carter One', cursive;
+    margin-top: -.5rem;
+    margin-left: -.5rem;
+    margin-right: .5rem;
+
+    position: fixed;
+}
+
+nav a {
+    color:rgb(139, 158, 175);
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#main_title {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#main_title h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+}
+
+#main_title p {
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+}
+
+#main_title img {
+    width: 60%;
+}
